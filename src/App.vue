@@ -52,14 +52,13 @@ export default {
   <main class="container p-5">
     <div class="row">
       <TheHeader
-        title="My Tasks To DO"
+        title="My Tasks To Do"
         :unCheckedTasks="this.numberOfUncheckedTasks"
       />
       <AddToDoTask @add-task="addTask" />
       <ToDoTask
         @delete-task="deleteTask"
         @check-task="checkTask"
-        @unChecked-tasks="unCheckedTasks"
         :tasks="this.tasks"
       />
     </div>
