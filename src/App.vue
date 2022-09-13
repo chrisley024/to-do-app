@@ -15,7 +15,6 @@ export default {
     return {
       tasks: [],
       numberOfUncheckedTasks: 0,
-      taskId: 0,
     };
   },
   methods: {
